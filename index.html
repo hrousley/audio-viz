@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Audio Visualizer - Heather</title>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="main.js"></script>
+
+
+</head>
+
+<body>
+
+<div>
+  <label for="fader">Volume</label>
+  <input type="range" min="0" max="100" value="50" id="fader" step="1" oninput="outputUpdate(value)" />
+  <output for="fader" id="volume">50</output>
+</div>
+
+<canvas id="myCanvas" width="400" height="610"></>
+
+</body>
+
+</html>
